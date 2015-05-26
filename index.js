@@ -1,7 +1,7 @@
 'use strict';
 
 var isUrl = function(url) {
-  /^(?:\w+:)?\/\/([^\s\.]+\.\S{2}|localhost[\:?\d]*)\S*$/.test(url);
+  return /^(?:\w+:)?\/\/([^\s\.]+\.\S{2}|localhost[\:?\d]*)\S*$/.test(url);
 };
 
 module.exports = function(url, cb) {
@@ -14,7 +14,7 @@ module.exports = function(url, cb) {
     throw new Error("Callback function is missing!");
   }
   if (!isUrl(url)) {
-    throw new Error("Not a valid URL" + url);
+    throw new Error("Not a valid URL " + url);
   }
 
   var audioContext = new AudioContext();
