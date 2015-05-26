@@ -19,7 +19,10 @@
 		"index.js"
 	],
 	"keywords": [
-		""
+		"web",
+		"audio",
+		"webaudio",
+		"sample"
 	],
 	"dependencies": {},
 	"devDependencies": {
