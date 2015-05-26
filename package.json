@@ -1,31 +1,31 @@
 {
-  "name": "web-audio-sampler",
-  "version": "0.1.1",
-  "description": "My wicked module",
-  "license": "MIT",
-  "repository": "hemanth/web-audio-sampler",
-  "author": {
-    "name": "Hemanth.HM",
-    "email": "",
-    "url": "h3manth.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "web",
-    "audio",
-    "webaudio",
-    "sample"
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "mocha": "*"
-  }
+	"name": "web-audio-sampler",
+	"version": "0.1.1",
+	"description": "Web audio util, that will help you sample audio URLs",
+	"license": "MIT",
+	"repository": "hemanth/web-audio-sampler",
+	"author": {
+		"name": "Hemanth.HM",
+		"email": "",
+		"url": "h3manth.com"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"scripts": {
+		"test": "mocha"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"web",
+		"audio",
+		"webaudio",
+		"sample"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"mocha": "*"
+	}
 }

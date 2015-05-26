@@ -1,6 +1,6 @@
 # web-audio-sampler [![Build Status](https://travis-ci.org/hemanth/web-audio-sampler.svg?branch=master)](https://travis-ci.org/hemanth/web-audio-sampler)
 
-> Web audio util, that will help you sample audio.
+> Web audio util, that will help you sample audio URLs
 
 
 ## Install
