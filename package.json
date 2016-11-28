@@ -26,6 +26,6 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "2.5.0"
   }
 }
